@@ -2,7 +2,7 @@
 randomCoin=$(( RANDOM%2 ))
 if [ $randomCoin -eq 0 ]
 then
-	echo "Heads"
+	echo " It's Heads"
 else
-	echo "Tails"
+	echo " It's Tails"
 fi
